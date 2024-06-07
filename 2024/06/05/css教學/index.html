@@ -65,7 +65,7 @@
         
           <a class="main-nav-link" href="/myBlog/">首頁</a>
         
-          <a class="main-nav-link" href="/myBlog/archives">部落格</a>
+          <a class="main-nav-link" href="/myBlog/blog">部落格</a>
         
           <a class="main-nav-link" href="/myBlog/about">關於我</a>
         
@@ -84,7 +84,8 @@
   </div>
 </header>
 
-      <div class="outer">
+      <div class="outer ">
+        <!-- class="" -->
         <section id="main"><article id="post-css教學" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/myBlog/2024/06/05/css%E6%95%99%E5%AD%B8/" class="article-date">
@@ -120,7 +121,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://sammyhuang12.github.io/myBlog/2024/06/05/css%E6%95%99%E5%AD%B8/" data-id="clx2zu77f0001nsqc0hlgb7ss" data-title="css教學" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="https://sammyhuang12.github.io/myBlog/2024/06/05/css%E6%95%99%E5%AD%B8/" data-id="clx4rwzv100032wqc5v6qft9n" data-title="css教學" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -164,7 +165,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">標籤</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/myBlog/tags/css/" rel="tag">css</a></li><li class="tag-list-item"><a class="tag-list-link" href="/myBlog/tags/html/" rel="tag">html</a></li><li class="tag-list-item"><a class="tag-list-link" href="/myBlog/tags/javescript/" rel="tag">javescript</a></li><li class="tag-list-item"><a class="tag-list-link" href="/myBlog/tags/jquery/" rel="tag">jquery</a></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/myBlog/tags/css/" rel="tag">css</a></li><li class="tag-list-item"><a class="tag-list-link" href="/myBlog/tags/html/" rel="tag">html</a></li><li class="tag-list-item"><a class="tag-list-link" href="/myBlog/tags/javescript/" rel="tag">javescript</a></li><li class="tag-list-item"><a class="tag-list-link" href="/myBlog/tags/jquery/" rel="tag">jquery</a></li><li class="tag-list-item"><a class="tag-list-link" href="/myBlog/tags/list/" rel="tag">list</a></li><li class="tag-list-item"><a class="tag-list-link" href="/myBlog/tags/%E5%85%AD%E8%A7%92%E5%AD%B8%E9%99%A2/" rel="tag">六角學院</a></li></ul>
     </div>
   </div>
 
@@ -174,7 +175,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">標籤雲</h3>
     <div class="widget tagcloud">
-      <a href="/myBlog/tags/css/" style="font-size: 10px;">css</a> <a href="/myBlog/tags/html/" style="font-size: 20px;">html</a> <a href="/myBlog/tags/javescript/" style="font-size: 10px;">javescript</a> <a href="/myBlog/tags/jquery/" style="font-size: 10px;">jquery</a>
+      <a href="/myBlog/tags/css/" style="font-size: 10px;">css</a> <a href="/myBlog/tags/html/" style="font-size: 20px;">html</a> <a href="/myBlog/tags/javescript/" style="font-size: 10px;">javescript</a> <a href="/myBlog/tags/jquery/" style="font-size: 10px;">jquery</a> <a href="/myBlog/tags/list/" style="font-size: 10px;">list</a> <a href="/myBlog/tags/%E5%85%AD%E8%A7%92%E5%AD%B8%E9%99%A2/" style="font-size: 10px;">六角學院</a>
     </div>
   </div>
 
@@ -194,6 +195,14 @@
     <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/myBlog/2024/06/07/2024-%E9%AB%94%E9%A9%97%E7%87%9F%E6%84%9F%E8%AC%9D%E5%BF%83%E5%BE%97%E7%89%86/">2024 {六角學院}體驗營感謝心得牆</a>
+          </li>
+        
+          <li>
+            <a href="/myBlog/2024/06/07/To-do-list/">To do list</a>
+          </li>
         
           <li>
             <a href="/myBlog/2024/06/05/html%E6%95%99%E5%AD%B8/">html教學</a>
@@ -231,7 +240,7 @@
   
     <a href="/myBlog/" class="mobile-nav-link">首頁</a>
   
-    <a href="/myBlog/archives" class="mobile-nav-link">部落格</a>
+    <a href="/myBlog/blog" class="mobile-nav-link">部落格</a>
   
     <a href="/myBlog/about" class="mobile-nav-link">關於我</a>
   
@@ -256,5 +265,16 @@
 
 
   </div>
+  <style>
+    .fullpage #main{
+      /* display: flex;
+      justify-content: center; */
+      width: 100%;
+    }
+
+    .fullpage .article-meta,.fullpage .article-header,.fullpage .article-footer{
+      display: none;
+    }
+  </style>
 </body>
 </html>

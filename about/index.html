@@ -14,7 +14,7 @@
 <meta property="og:description" content="姓名：Sammy Huang前端技能：Html5、CSS、boot、bootstrap">
 <meta property="og:locale" content="zh_TW">
 <meta property="article:published_time" content="2024-06-04T07:58:23.000Z">
-<meta property="article:modified_time" content="2024-06-05T07:46:14.368Z">
+<meta property="article:modified_time" content="2024-06-06T09:49:17.078Z">
 <meta property="article:author" content="Sammy Huang">
 <meta property="article:tag" content="前端,後端,生活">
 <meta name="twitter:card" content="summary">
@@ -60,7 +60,7 @@
         
           <a class="main-nav-link" href="/myBlog/">首頁</a>
         
-          <a class="main-nav-link" href="/myBlog/archives">部落格</a>
+          <a class="main-nav-link" href="/myBlog/blog">部落格</a>
         
           <a class="main-nav-link" href="/myBlog/about">關於我</a>
         
@@ -79,7 +79,8 @@
   </div>
 </header>
 
-      <div class="outer">
+      <div class="outer fullpage">
+        <!-- class="fullpage" -->
         <section id="main"><article id="page-" class="h-entry article article-type-page" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/myBlog/about/index.html" class="article-date">
@@ -106,7 +107,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://sammyhuang12.github.io/myBlog/about/index.html" data-id="clx2zu77c0000nsqc6qej4n78" data-title="關於我" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="https://sammyhuang12.github.io/myBlog/about/index.html" data-id="clx4rwzur00002wqc2kfzbfvc" data-title="關於我" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -119,65 +120,6 @@
 
 
 </section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">標籤</h3>
-    <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/myBlog/tags/css/" rel="tag">css</a></li><li class="tag-list-item"><a class="tag-list-link" href="/myBlog/tags/html/" rel="tag">html</a></li><li class="tag-list-item"><a class="tag-list-link" href="/myBlog/tags/javescript/" rel="tag">javescript</a></li><li class="tag-list-item"><a class="tag-list-link" href="/myBlog/tags/jquery/" rel="tag">jquery</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">標籤雲</h3>
-    <div class="widget tagcloud">
-      <a href="/myBlog/tags/css/" style="font-size: 10px;">css</a> <a href="/myBlog/tags/html/" style="font-size: 20px;">html</a> <a href="/myBlog/tags/javescript/" style="font-size: 10px;">javescript</a> <a href="/myBlog/tags/jquery/" style="font-size: 10px;">jquery</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">彙整</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/myBlog/archives/2024/06/">六月 2024</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">最新文章</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/myBlog/2024/06/05/html%E6%95%99%E5%AD%B8/">html教學</a>
-          </li>
-        
-          <li>
-            <a href="/myBlog/2024/06/05/css%E6%95%99%E5%AD%B8/">css教學</a>
-          </li>
-        
-          <li>
-            <a href="/myBlog/2024/06/03/hello-world/">Hello World不要跟我哈囉，開始寫程式吧</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
         
       </div>
       <footer id="footer">
@@ -196,7 +138,7 @@
   
     <a href="/myBlog/" class="mobile-nav-link">首頁</a>
   
-    <a href="/myBlog/archives" class="mobile-nav-link">部落格</a>
+    <a href="/myBlog/blog" class="mobile-nav-link">部落格</a>
   
     <a href="/myBlog/about" class="mobile-nav-link">關於我</a>
   
@@ -221,5 +163,16 @@
 
 
   </div>
+  <style>
+    .fullpage #main{
+      /* display: flex;
+      justify-content: center; */
+      width: 100%;
+    }
+
+    .fullpage .article-meta,.fullpage .article-header,.fullpage .article-footer{
+      display: none;
+    }
+  </style>
 </body>
 </html>
